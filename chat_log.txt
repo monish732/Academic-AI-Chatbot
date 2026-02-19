@@ -1,132 +1,45 @@
-[2026-02-19 14:27:49] User: hi
-[2026-02-19 14:27:49] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
+[2026-02-19 15:20:46] User: what is the admission process?
+[2026-02-19 15:20:46] Bot: Admissions open every March. Applicants must submit required documents and may attend an entrance assessment.
 --------------------------------------------------
-[2026-02-19 14:27:53] User: hello
-[2026-02-19 14:27:53] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
+[2026-02-19 15:21:06] User: subjects available?
+[2026-02-19 15:21:06] Bot: Subjects offered include Mathematics, Science, English, Social Studies, Computer Science, Hindi, Sanskrit, Physical Education, Art, and Music.
 --------------------------------------------------
-[2026-02-19 14:27:55] User: bye
-[2026-02-19 14:27:55] Bot: Goodbye 👋 Have a wonderful day.
+[2026-02-19 15:21:23] User: is there hostel facilities?
+[2026-02-19 15:21:23] Bot: Separate hostel facilities are available for boys and girls with 24/7 supervision.
 --------------------------------------------------
-[2026-02-19 14:27:58] User: time
-[2026-02-19 14:27:58] Bot: School operates from 8:30 AM to 3:00 PM, Monday to Friday.
+[2026-02-19 15:21:40] User: Is bus facility available?
+[2026-02-19 15:21:40] Bot: You're most welcome! 😊 If you need anything else, feel free to ask.
 --------------------------------------------------
-[2026-02-19 14:28:03] User: school
-[2026-02-19 14:28:03] Bot: The school provides library, computer labs, science labs, playground, auditorium, and smart classrooms.
+[2026-02-19 15:21:58] User: School bus available?
+[2026-02-19 15:21:58] Bot: The school provides GPS-enabled bus transport services across major city routes.
 --------------------------------------------------
-[2026-02-19 14:28:56] User: admission
-[2026-02-19 14:28:56] Bot: Admissions are based on entrance assessment and previous academic performance.
+[2026-02-19 15:22:06] User: inimum attendance?
+[2026-02-19 15:22:06] Bot: A minimum of 75% attendance is mandatory to appear for final examinations.
 --------------------------------------------------
-[2026-02-19 14:29:01] User: uniform
-[2026-02-19 14:29:01] Bot: Students must wear the prescribed school uniform on all working days.
+[2026-02-19 15:22:12] User: When are exams conducted?
+[2026-02-19 15:22:12] Bot: Examinations are conducted quarterly, half-yearly, and annually along with continuous assessments.
 --------------------------------------------------
-[2026-02-19 14:35:44] User: Hi
-[2026-02-19 14:35:44] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
+[2026-02-19 15:22:22] User: Lab facilities?
+[2026-02-19 15:22:22] Bot: Facilities include smart classrooms, laboratories, computer labs, auditorium, playground, medical room, and counseling center.
 --------------------------------------------------
-[2026-02-19 14:35:47] User: hello
-[2026-02-19 14:35:47] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
+[2026-02-19 15:22:35] User: Tell me about sports facilities
+[2026-02-19 15:22:35] Bot: Sports facilities include Football, Cricket, Basketball, Volleyball, Athletics, Badminton, Table Tennis, and Indoor Chess.
 --------------------------------------------------
-[2026-02-19 14:35:51] User: time
-[2026-02-19 14:35:51] Bot: School operates from 8:30 AM to 3:00 PM, Monday to Friday.
+[2026-02-19 15:23:12] User: Tell me about canteen
+[2026-02-19 15:23:12] Bot: The school canteen offers healthy, hygienic vegetarian meals and snacks.
 --------------------------------------------------
-[2026-02-19 14:35:58] User: principal
-[2026-02-19 14:35:58] Bot: The school has experienced teachers in all departments including Science, Mathematics, Languages, and Humanities.
+[2026-02-19 15:23:25] User: Tell me about annual day
+[2026-02-19 15:23:25] Bot: Major events include Annual Day, Sports Day, Science Exhibition, Cultural Fest, and Independence Day celebrations.
 --------------------------------------------------
-[2026-02-19 14:36:13] User: clubs
-[2026-02-19 14:36:13] Bot: Students can participate in sports, music, dance, drama, robotics club, and science club.
+[2026-02-19 15:24:05] User: Are scholarships available?
+[2026-02-19 15:24:05] Bot: Good day! 👋 Welcome to the School AI Assistant. How may I assist you today?
 --------------------------------------------------
-[2026-02-19 14:40:00] User: hi
-[2026-02-19 14:40:00] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
+[2026-02-19 15:24:15] User: Vision of school?
+[2026-02-19 15:24:15] Bot: The mission is to provide holistic education fostering intellectual and emotional development.
 --------------------------------------------------
-[2026-02-19 14:40:09] User: goodday
-[2026-02-19 14:40:09] Bot: Students must wear the prescribed school uniform on all working days.
+[2026-02-19 15:24:25] User: Smart classroom available?
+[2026-02-19 15:24:25] Bot: Facilities include smart classrooms, laboratories, computer labs, auditorium, playground, medical room, and counseling center.
 --------------------------------------------------
-[2026-02-19 14:47:52] User: Hi
-[2026-02-19 14:47:52] Bot: Hello 👋 Welcome to the School AI Assistant. How can I assist you today?
---------------------------------------------------
-[2026-02-19 14:47:58] User: greetings
-[2026-02-19 14:47:58] Bot: School operates from 8:30 AM to 3:00 PM, Monday to Friday.
---------------------------------------------------
-[2026-02-19 14:48:04] User: greetings
-[2026-02-19 14:48:04] Bot: School operates from 8:30 AM to 3:00 PM, Monday to Friday.
---------------------------------------------------
-[2026-02-19 14:49:03] User: greeting
-[2026-02-19 14:49:03] Bot: Good day! 👋 Welcome to the School AI Assistant. How may I assist you today?
---------------------------------------------------
-[2026-02-19 14:49:09] User: leave
-[2026-02-19 14:49:09] Bot: Leave applications must be submitted in writing or through the parent portal.
---------------------------------------------------
-[2026-02-19 14:49:30] User: School timing
-[2026-02-19 14:49:30] Bot: School operates from 8:30 AM to 3:30 PM, Monday to Friday. Saturday is a half-day from 8:30 AM to 12:30 PM.
---------------------------------------------------
-[2026-02-19 14:49:34] User: uniform
-[2026-02-19 14:49:34] Bot: Students must wear the prescribed school uniform on all working days. House uniforms are worn during sports events.
---------------------------------------------------
-[2026-02-19 14:50:21] User: what about hostel
-[2026-02-19 14:50:21] Bot: Separate hostel facilities are available for boys and girls with 24/7 supervision.
---------------------------------------------------
-[2026-02-19 14:50:37] User: scholarship details
-[2026-02-19 14:50:37] Bot: Good day! 👋 Welcome to the School AI Assistant. How may I assist you today?
---------------------------------------------------
-[2026-02-19 14:50:49] User: scholarship details
-[2026-02-19 14:50:49] Bot: Good day! 👋 Welcome to the School AI Assistant. How may I assist you today?
---------------------------------------------------
-[2026-02-19 14:55:26] User: what is the Admission process
-[2026-02-19 14:55:26] Bot: Admissions open every March. Applicants must submit required documents and may attend an entrance assessment.
---------------------------------------------------
-[2026-02-19 14:55:35] User: subjects offered?
-[2026-02-19 14:55:35] Bot: Subjects offered include Mathematics, Science, English, Social Studies, Computer Science, Hindi, Sanskrit, Physical Education, Art, and Music.
---------------------------------------------------
-[2026-02-19 14:56:00] User: is there hostel facilities?
-[2026-02-19 14:56:00] Bot: Separate hostel facilities are available for boys and girls with 24/7 supervision.
---------------------------------------------------
-[2026-02-19 14:56:23] User: infrastructure of campus?
-[2026-02-19 14:56:23] Bot: Facilities include smart classrooms, laboratories, computer labs, auditorium, playground, medical room, and counseling center.
---------------------------------------------------
-[2026-02-19 14:56:38] User: what about exams
-[2026-02-19 14:56:38] Bot: Examinations are conducted quarterly, half-yearly, and annually along with continuous assessments.
---------------------------------------------------
-[2026-02-19 14:56:54] User: School timings and holidays
-[2026-02-19 14:56:54] Bot: The academic calendar includes summer vacation, winter break, and government holidays.
---------------------------------------------------
-[2026-02-19 14:57:04] User: School timing
-[2026-02-19 14:57:04] Bot: School operates from 8:30 AM to 3:30 PM, Monday to Friday. Saturday is a half-day from 8:30 AM to 12:30 PM.
---------------------------------------------------
-[2026-02-19 14:58:57] User: What is the admission process
-[2026-02-19 14:58:57] Bot: Admissions open every March. Applicants must submit required documents and may attend an entrance assessment.
---------------------------------------------------
-[2026-02-19 14:59:25] User: Subjects available?
-[2026-02-19 14:59:25] Bot: Subjects offered include Mathematics, Science, English, Social Studies, Computer Science, Hindi, Sanskrit, Physical Education, Art, and Music.
---------------------------------------------------
-[2026-02-19 14:59:43] User: is there hostel facilities?
-[2026-02-19 14:59:43] Bot: Separate hostel facilities are available for boys and girls with 24/7 supervision.
---------------------------------------------------
-[2026-02-19 15:00:02] User: what is the school timimg
-[2026-02-19 15:00:02] Bot: The school canteen offers healthy, hygienic vegetarian meals and snacks.
---------------------------------------------------
-[2026-02-19 15:00:12] User: what is the school timimg
-[2026-02-19 15:00:12] Bot: The school canteen offers healthy, hygienic vegetarian meals and snacks.
---------------------------------------------------
-[2026-02-19 15:00:23] User: what is the school timing
-[2026-02-19 15:00:23] Bot: School operates from 8:30 AM to 3:30 PM, Monday to Friday. Saturday is a half-day from 8:30 AM to 12:30 PM.
---------------------------------------------------
-[2026-02-19 15:00:47] User: what is the admission process?
-[2026-02-19 15:00:47] Bot: Admissions open every March. Applicants must submit required documents and may attend an entrance assessment.
---------------------------------------------------
-[2026-02-19 15:01:03] User: subjects available?
-[2026-02-19 15:01:03] Bot: Subjects offered include Mathematics, Science, English, Social Studies, Computer Science, Hindi, Sanskrit, Physical Education, Art, and Music.
---------------------------------------------------
-[2026-02-19 15:01:20] User: is there hostel facilities?
-[2026-02-19 15:01:20] Bot: Separate hostel facilities are available for boys and girls with 24/7 supervision.
---------------------------------------------------
-[2026-02-19 15:01:56] User: Tell me about canteen
-[2026-02-19 15:01:56] Bot: The school canteen offers healthy, hygienic vegetarian meals and snacks.
---------------------------------------------------
-[2026-02-19 15:02:09] User: Dress code details
-[2026-02-19 15:02:09] Bot: Students must wear the prescribed school uniform on all working days. House uniforms are worn during sports events.
---------------------------------------------------
-[2026-02-19 15:02:24] User: school timing?
-[2026-02-19 15:02:24] Bot: School operates from 8:30 AM to 3:30 PM, Monday to Friday. Saturday is a half-day from 8:30 AM to 12:30 PM.
---------------------------------------------------
-[2026-02-19 15:02:50] User: Thank you
-[2026-02-19 15:02:50] Bot: You're most welcome! 😊 If you need anything else, feel free to ask.
+[2026-02-19 15:24:33] User: thank you
+[2026-02-19 15:24:33] Bot: You're most welcome! 😊 If you need anything else, feel free to ask.
 --------------------------------------------------
