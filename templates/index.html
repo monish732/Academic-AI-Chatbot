@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School AI Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #cceaf7, #a0dbef, #82d4f7);
+        }
+
+        .chat-container {
+            width: 420px;
+            height: 600px;
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Header */
+        .chat-header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .bot-icon {
+            font-size: 22px;
+        }
+
+        /* Chat Messages */
+        .chat-box {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #f4f7fb;
+            scroll-behavior: smooth;
+        }
+
+        .message {
+            padding: 10px 14px;
+            border-radius: 12px;
+            max-width: 75%;
+            font-size: 14px;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            align-self: flex-end;
+            background-color: #2a5298;
+            color: white;
+        }
+
+        .bot-message {
+            align-self: flex-start;
+            background-color: #e3eaf4;
+            color: #333;
+        }
+
+        /* Input Section */
+        .chat-input {
+            display: flex;
+            padding: 12px;
+            border-top: 1px solid #ddd;
+            background: white;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .chat-input button {
+            margin-left: 10px;
+            padding: 10px 16px;
+            border-radius: 8px;
+            border: none;
+            background-color: #1e3c72;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .chat-input button:hover {
+            background-color: #16305c;
+        }
+
+        /* Scrollbar styling */
+        .chat-box::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .chat-box::-webkit-scrollbar-thumb {
+            background: #bbb;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        School AI Assistant
+        <span class="bot-icon">🤖</span>
+    </div>
+
+    <div class="chat-box" id="chat-box">
+        <div class="message bot-message">
+            Hello 👋 Welcome to School AI Assistant. How can I help you today?
+        </div>
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script>
+    function handleKeyPress(event) {
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+    }
+
+    function sendMessage() {
+        let input = document.getElementById("user-input");
+        let message = input.value.trim();
+        if (message === "") return;
+
+        let chatBox = document.getElementById("chat-box");
+
+        // Add user message
+        let userDiv = document.createElement("div");
+        userDiv.className = "message user-message";
+        userDiv.textContent = message;
+        chatBox.appendChild(userDiv);
+
+        fetch("/chat", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({message: message})
+        })
+        .then(response => response.json())
+        .then(data => {
+            let botDiv = document.createElement("div");
+            botDiv.className = "message bot-message";
+            botDiv.textContent = data.response;
+            chatBox.appendChild(botDiv);
+
+            // Auto scroll to bottom
+            chatBox.scrollTop = chatBox.scrollHeight;
+        });
+
+        input.value = "";
+    }
+</script>
+
+</body>
+</html>

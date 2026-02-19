@@ -1,0 +1,132 @@
+[
+  {"question": "What are school timings?", "intent": "timing"},
+  {"question": "When does school start?", "intent": "timing"},
+  {"question": "When does school end?", "intent": "timing"},
+  {"question": "Is school open on Saturday?", "intent": "timing"},
+  {"question": "Working hours?", "intent": "timing"},
+  {"question": "School opening time?", "intent": "timing"},
+  {"question": "School closing time?", "intent": "timing"},
+
+  {"question": "What subjects are offered?", "intent": "subjects"},
+  {"question": "List of subjects", "intent": "subjects"},
+  {"question": "Is computer science available?", "intent": "subjects"},
+  {"question": "Which languages are taught?", "intent": "subjects"},
+  {"question": "Do you teach science?", "intent": "subjects"},
+  {"question": "What courses are available?", "intent": "subjects"},
+
+  {"question": "Library timing?", "intent": "library"},
+  {"question": "Tell me about library", "intent": "library"},
+  {"question": "How many books are in library?", "intent": "library"},
+  {"question": "Is digital library available?", "intent": "library"},
+
+  {"question": "Tell me about sports facilities", "intent": "sports"},
+  {"question": "Is cricket available?", "intent": "sports"},
+  {"question": "Indoor games available?", "intent": "sports"},
+  {"question": "Football ground?", "intent": "sports"},
+  {"question": "Do you have basketball court?", "intent": "sports"},
+
+  {"question": "Who is the principal?", "intent": "principal"},
+  {"question": "Name of school head", "intent": "principal"},
+  {"question": "Principal name?", "intent": "principal"},
+
+  {"question": "Who is the vice principal?", "intent": "vice_principal"},
+  {"question": "Vice principal name?", "intent": "vice_principal"},
+
+  {"question": "Tell me about admission process", "intent": "admission"},
+  {"question": "How can I apply?", "intent": "admission"},
+  {"question": "Admission details", "intent": "admission"},
+  {"question": "When do admissions start?", "intent": "admission"},
+  {"question": "Documents required for admission?", "intent": "admission"},
+
+  {"question": "Fee structure details", "intent": "fees"},
+  {"question": "How much are the fees?", "intent": "fees"},
+  {"question": "School fee details?", "intent": "fees"},
+
+  {"question": "Is bus facility available?", "intent": "transport"},
+  {"question": "Transport routes?", "intent": "transport"},
+  {"question": "School bus available?", "intent": "transport"},
+
+  {"question": "Tell me about canteen", "intent": "canteen"},
+  {"question": "Food facility available?", "intent": "canteen"},
+  {"question": "Is cafeteria available?", "intent": "canteen"},
+
+  {"question": "Uniform rules", "intent": "uniform"},
+  {"question": "Dress code details", "intent": "uniform"},
+  {"question": "Is uniform compulsory?", "intent": "uniform"},
+
+  {"question": "When are exams conducted?", "intent": "exam"},
+  {"question": "Exam pattern?", "intent": "exam"},
+  {"question": "Exam schedule?", "intent": "exam"},
+
+  {"question": "Attendance requirement?", "intent": "attendance"},
+  {"question": "Minimum attendance?", "intent": "attendance"},
+  {"question": "Is 75 percent attendance mandatory?", "intent": "attendance"},
+
+  {"question": "What clubs are there?", "intent": "clubs"},
+  {"question": "Extracurricular activities?", "intent": "clubs"},
+  {"question": "Is robotics club available?", "intent": "clubs"},
+
+  {"question": "What events are conducted?", "intent": "events"},
+  {"question": "Tell me about annual day", "intent": "events"},
+  {"question": "Sports day details?", "intent": "events"},
+
+  {"question": "School holidays?", "intent": "holiday"},
+  {"question": "Vacation details?", "intent": "holiday"},
+  {"question": "Winter break details?", "intent": "holiday"},
+
+  {"question": "Facilities available?", "intent": "facilities"},
+  {"question": "Infrastructure details?", "intent": "facilities"},
+  {"question": "School amenities?", "intent": "facilities"},
+
+  {"question": "Lab facilities?", "intent": "lab"},
+  {"question": "Is physics lab available?", "intent": "lab"},
+  {"question": "Computer lab details?", "intent": "lab"},
+
+  {"question": "Is medical support available?", "intent": "medical"},
+  {"question": "Do you have a nurse?", "intent": "medical"},
+
+  {"question": "Counseling services?", "intent": "counseling"},
+  {"question": "Is career counseling available?", "intent": "counseling"},
+
+  {"question": "Parent teacher meeting details?", "intent": "pta"},
+  {"question": "When is PTA conducted?", "intent": "pta"},
+
+  {"question": "Scholarship details?", "intent": "scholarship"},
+  {"question": "Are scholarships available?", "intent": "scholarship"},
+
+  {"question": "Discipline policy?", "intent": "discipline"},
+  {"question": "School rules?", "intent": "discipline"},
+
+  {"question": "What is the mission?", "intent": "mission"},
+  {"question": "School mission statement?", "intent": "mission"},
+
+  {"question": "Vision of school?", "intent": "vision"},
+  {"question": "School vision?", "intent": "vision"},
+
+  {"question": "Contact number?", "intent": "contact"},
+  {"question": "How to contact school?", "intent": "contact"},
+
+  {"question": "School website?", "intent": "website"},
+  {"question": "Official website link?", "intent": "website"},
+
+  {"question": "Career guidance?", "intent": "career"},
+  {"question": "Higher education guidance?", "intent": "career"},
+
+  {"question": "Hostel facility?", "intent": "hostel"},
+  {"question": "Is hostel available?", "intent": "hostel"},
+
+  {"question": "Security measures?", "intent": "security"},
+  {"question": "Is CCTV available?", "intent": "security"},
+
+  {"question": "Smart classroom available?", "intent": "smartclass"},
+  {"question": "Digital classroom?", "intent": "smartclass"},
+
+  {"question": "How to check results?", "intent": "results"},
+  {"question": "Where are exam results published?", "intent": "results"},
+
+  {"question": "Is ID card compulsory?", "intent": "idcard"},
+  {"question": "Should students carry ID card?", "intent": "idcard"},
+
+  {"question": "Leave application process?", "intent": "leave"},
+  {"question": "How to apply leave?", "intent": "leave"}
+]
